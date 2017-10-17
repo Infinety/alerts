@@ -3,7 +3,7 @@
 Laravel package to use the javascript SweetAlert with Laravel Service Provider.
 Simple package, but effective.
 
-##Installation
+## Installation
 
 ````
 composer require infinety/alerts *@dev
@@ -40,7 +40,7 @@ Include the alerts view to your master view. Add this code right after set the J
 @include('Alerts::alerts')
 ````
 
-###Usage
+### Usage
 
 On your controllers is a perfect place to use it, any way you can fire the alerts from jobs or events.
 
@@ -57,11 +57,11 @@ alert()->success('Title', 'Message')
 alert()->overlay('Title', 'Message')
 ````
 
-###Issues
+### Issues
 
 If you have any questions or issues, please open an Issue and I will look at this and look to fix as soon as possible.
 
-###SweetAlert website
+### SweetAlert website
 
 http://t4t5.github.io/sweetalert/
 
